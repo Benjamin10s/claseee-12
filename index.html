@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Comida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Bienvenido a Delicious Food</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#pedido">Pedido</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="ofertas">
+        <div class="oferta">
+            <img src="" alt="Oferta 1">
+            <h2>Oferta Especial</h2>
+            <p>$10</p>
+        </div>
+        <!-- Repite esta estructura para las otras ofertas -->
+    </section>
+
+    <section id="galeria">
+        <div class="galeria">
+            <!-- Repite esta estructura para las imágenes -->
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <section id="pedido">
+        <h2>Realiza tu pedido</h2>
+        <form action="#" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="tel" name="telefono" placeholder="Teléfono" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="direccion" placeholder="Dirección" required>
+            <textarea name="productos" placeholder="Productos que deseas llevar" required></textarea>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </section>
+
+    <footer id="contacto">
+        <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+        <div class="contacto">
+            <p>Teléfono: 123-456-789</p>
+            <p>Email: info@deliciousfood.com</p>
+            <p>Dirección: Av. Principal #123</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
